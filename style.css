@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500|Merienda+One');
+@charset "UTF-8";
+/*
+Theme Name: Felix Blanco
+Theme URI: https://github.com/WordPress/twentynineteen
+Author: Felix Blanco
+Author URI: https://blancofelix.com/
+Description: Un nuevo tema personal para mi.
+Requires at least: WordPress 4.9.6
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+*/
+
+html,body{ 
+	font-family: 'Montserrat', sans-serif;  
+	height: 85%;
+}
+
+.min-height{ min-height: 100%; }
+
+.font-merienda-one{ font-family: 'Merienda One', cursive;  }
+
+/** TEXT Y BG COLORS
+*/
+.azul-oscuro{ background-color: #0B132B; }
+.azul-claro{ background-color: #06BEE2; }
+.azul-marino{ background-color: #03256C; }
+.naranja{ background-color: #EF3E36; }
+.bg-white{ background-color: white; }
+.bg-gray { 	background-color: #f4f4f4;	  }
+
+.txt-azul-claro{ color: #06BEE2; }
+.txt-naranja{ color: #EF3E36; }
+.text-white{ color: white; }
+
+.title h2,h3,h4{ color: #06BEE2; }
+
+.cont-uno{ border-radius: 6px;	padding: 10px; }
+.pes{ color: #0B132B; }
+
+
+/*CAJAS DE LOS CONTENEDORES DE LOS POST */
+.cont-post{ background-color: white; padding-bottom: 2%;}
+.contenido{			
+	color: black;			
+	padding: 10px;
+}
+
+/*landing*/
+.img-no-repeat{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#img-perfil{
+	position: relative;
+	margin-top: -30%;
+}
+
+#nav-menu{			
+	font-size: 30px;
+}
+#nav-menu a{
+	color: #067BC2;
+}
+#nav-menu a:hover{
+	color: #84BCDA;
+}		
+.barra{
+	background-color: #2B303A;
+	margin: 1% auto;
+	width: 8%;			
+}
+.secciones-t-b{
+	margin-top: 10%;
+	margin-bottom: 10%
+}
+
+.landing-post a{
+	color: black;
+	text-decoration: none;
+}
+
+.footer{
+	border-bottom:  23px solid #0B132B;
+}
+
+/* all post*/
+.secciones-t-b{
+	margin-top: 10%;
+	margin-bottom: 10%
+}
+.cont-post{
+	background-color: white;
+}
+.cont-post a{
+	color: black;
+	text-decoration: none;
+}
