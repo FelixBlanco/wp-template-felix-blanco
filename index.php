@@ -13,9 +13,9 @@
 			<div class="row">
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 					<div class="col-md-4">
-						<article class="bg-write">
-							<a href="<?php the_permalink(); ?>">
-								<img src="<?php echo get_stylesheet_directory_uri().'/img/1200x628.png'; ?>" class="img-fluid" alt="">
+						<article class="bg-white">
+							<a href="<?php the_permalink(); ?>">								
+								<?php the_post_thumbnail('post-thumbnails',['class'=>'img-fluid mx-auto d-block'])  ?>		
 								<div class="contenido">
 									<span>TECH</span>
 									<h2 class="text-justify"><?php the_title(); ?></h2>

@@ -16,7 +16,7 @@
 					<div class="col-md-4">
 						<article class="cont-post shadow">
 							<a href="<?php the_permalink(); ?>">
-								<img src="<?php bloginfo('template_url') ?>/img/1200x628.png" class="img-fluid">
+								<?php the_post_thumbnail('post-thumbnails',['class'=>'img-fluid mx-auto d-block'])  ?>		
 								<div class="contenido">
 									<span>TECH</span>
 									<h2 class="text-justify"><?php the_title() ?></h2>
