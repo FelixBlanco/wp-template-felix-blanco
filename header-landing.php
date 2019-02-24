@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
 	<title>Felix Blanco | Full Stack Developer Web</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
@@ -15,7 +15,7 @@
 	<!-- Encabezado -->
 	<section>
 		<div class="container-fluid">
-			<div class="row img-no-repeat" style="background-image: url( <?php echo get_stylesheet_directory_uri(). '/img/circuit_3840x1200.jpg'; ?>); height: 300px;">
+			<div class="row img-no-repeat landing-bg" style="background-image: url( <?php echo get_stylesheet_directory_uri(). '/img/circuit_3840x1200.jpg'; ?>);">
 				<!-- img circuitos -->
 			</div>			
 		</div>
@@ -31,9 +31,9 @@
 						<li class="nav-item">
 							<a href="http://localhost/wordpress/index.php/post/" class="nav-link font-merienda-one">Post</a>
 						</li>
-						<li class="nav-item">
+<!-- 						<li class="nav-item">
 							<a href="#" class="nav-link font-merienda-one">Proyectos</a>
-						</li>
+						</li> -->
 						<li class="nav-item">
 							<a href="http://localhost/wordpress/index.php/acerca-de-mi/" class="nav-link font-merienda-one">Acerda de mi</a>
 						</li>

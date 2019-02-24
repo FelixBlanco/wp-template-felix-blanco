@@ -13,12 +13,12 @@
 			<div class="row">
 				<?php query_posts( 'posts_per_page=10' );  ?>
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-					<div class="col-md-4">
+					<div class="col-md-4 mb-4">
 						<article class="cont-post shadow">
 							<a href="<?php the_permalink(); ?>">
 								<?php the_post_thumbnail('post-thumbnails',['class'=>'img-fluid mx-auto d-block'])  ?>		
 								<div class="contenido">
-									<span>TECH</span>
+									<!-- <span>TECH</span> -->
 									<h2 class="text-justify"><?php the_title() ?></h2>
 									<span><?php the_time( 'd/m/Y' ) ?></span>
 								</div>	

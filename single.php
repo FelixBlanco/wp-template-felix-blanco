@@ -1,7 +1,7 @@
 <?php get_header() ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-	<div class="ng-gray">
+	<div class="ng-gray mt-4">
 		<div class="container" style="margin-top: 6%;">
 			<div class="row justify-content-center">
 				<div class="col-md-8">

@@ -52,6 +52,7 @@ html,body{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
+	height: 300px;
 }
 #img-perfil{
 	position: relative;
@@ -97,4 +98,13 @@ html,body{
 .cont-post a{
 	color: black;
 	text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+	.img-no-repeat{
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 100px;
+	}
 }

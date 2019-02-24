@@ -10,15 +10,15 @@ Template Name: Acerca de Mi
 <div class="container title" style="margin-top: 8%;">
 
 	<div class="row justify-content-center">
-		<div class="col-8 offset-1">
+		<div class="col-md-8 offset-md-1">
 
 			<!-- ACERCA DE MI -->
 			<div>
 				<div class="row">
-					<div class="col-4">
+					<div class="col-sm-4 col-md-4">
 						<img src="<?php bloginfo('template_url') ?>/img/perfil.jpg" class="rounded img-fluid mx-auto d-block mt-5">
 					</div>
-					<div class="col-8">
+					<div class="col-sm-12 col-md-8">
 						<h2 class="text-center p-2 font-merienda-one">Acerca de mi <span class="lnr lnr-smile pes"></span></h2>
 						<p class="text-justify">
 							¡Hola!, Soy Félix Blanco, nací hace <?php echo $edad; ?> años en Venezuela – Monagas. <br>  <br>
@@ -91,7 +91,7 @@ Template Name: Acerca de Mi
 			</div>	
 
 			<div class="row mt-2 shadow">
-				<div class="col-4">
+				<div class="col-md-4">
 					<img src="<?php bloginfo('template_url') ?>/img/proyectos/deposito-central.png" class="img-fluid d-block mx-auto mt-4">
 				</div>
 				<div class="col-8">
@@ -104,10 +104,10 @@ Template Name: Acerca de Mi
 			</div>
 
 			<div class="row mt-2 shadow">
-				<div class="col-4">
+				<div class="col-md-4">
 					<img src="<?php bloginfo('template_url') ?>/img/proyectos/teraima.png" class="img-fluid d-block mx-auto mt-3">
 				</div>
-				<div class="col-8">
+				<div class="col-md-8">
 					<h5 class="p-2">Teraima, Como: Desarrollador Web</h4>
 					<small>Desde Agosto 2017 - Diciembre 2018</small>
 					<p class="text-justify">Desarrollé y di mantenimiento a diferentes aplicaciones de la empresa utilizando wordpress y Laravel con Jquery en muchos casos.</p>						
@@ -115,10 +115,10 @@ Template Name: Acerca de Mi
 			</div>
 
 			<div class="row mt-2 shadow">
-				<div class="col-4">
+				<div class="col-md-4">
 					<img src="<?php bloginfo('template_url') ?>/img/proyectos/jimenez-puertas.png" class="img-fluid d-block mx-auto mt-4">
 				</div>
-				<div class="col-8">
+				<div class="col-md-8">
 					<h5 class="p-2"> Jimenez Puerta, Como: Desarrollador Web </h4>
 					<small>Desde el 2016 - 2017</small>
 					<p class="text-justify">Desarrollamos una web en la cual la firma de abogados muestra sus servicios, este trabajo fue realizado con Laboratorio B3 en la parte creativa y diseño y posteriormente con mi persona usando Bootstrap, Css3 y Jquery para mucho de los efectos.</p>						
@@ -126,10 +126,10 @@ Template Name: Acerca de Mi
 			</div>
 
 			<div class="row mt-2 shadow">
-				<div class="col-4">
+				<div class="col-md-4">
 					<img src="<?php bloginfo('template_url') ?>/img/proyectos/farmagroup.png" class="img-fluid d-block mx-auto mt-4">
 				</div>
-				<div class="col-8">
+				<div class="col-md-8">
 					<h5 class="p-2">Farmagroup, ​ Como: ​ Desarrollador y Mantenimiento</h4>
 					<small>Agosto 2017 - Hasta Febrero 2018</small>
 					<p class="text-justify">Desarrollo y mantenimientos de su sistema de fármacos, que permitía la gestión y la administración de servicios, desarrolle módulos para optimizar mucho mas la parte administrativa del mismo.</p>						
@@ -137,10 +137,10 @@ Template Name: Acerca de Mi
 			</div>	
 
 			<div class="row mt-2 shadow">
-				<div class="col-4">
+				<div class="col-md-4">
 					<img src="<?php bloginfo('template_url') ?>/img/proyectos/pdvsa.png" class="img-fluid d-block mx-auto mt-4">
 				</div>
-				<div class="col-8">
+				<div class="col-md-8">
 					<h5 class="p-2"> PDVSA, Como: Pasante </h4>
 					<small>Desde el 2016 - 2017</small>
 					<p class="text-justify">Fui pasante en el área de AIT con el fin de optar mi titulo de Licenciado en informática, desarrollando un proyecto piloto para las escuelas de PDVSA, que comenzaría por la Escuela Libertador Bolívar y posteriormente se iba a expandir para toda la zona que cubre PDVSA – Esem, en el desarrollo aplicamos Laravel, Mysql y Bootstrap con Jquery.</p>						
@@ -148,10 +148,10 @@ Template Name: Acerca de Mi
 			</div>
 
 			<div class="row mt-2 shadow">
-				<div class="col-4">
+				<div class="col-md-4">
 					<img src="<?php bloginfo('template_url') ?>/img/proyectos/EMJGNR.png" class="img-fluid d-block mx-auto mt-4">
 				</div>
-				<div class="col-8">
+				<div class="col-md-8">
 					<h5 class="p-2"> E.M.J.G.N.R. : Desarrollador Web </h5>
 					<small>Desde el 2016 - 2017</small>
 					<p class="text-justify">Una plataforma web que permitía que mas de 900 estudiantes se inscribieran en la institución, corroboraban la información de interés y de igual forma que muchos efectuaban su preinscripción con la inscripción de la misma. Dicha aplicación fue desarrollada en Laravel con Boostrap, liberando asi la carga administrativa del personal y logrando optimizar las respuestas a los usuarios.</p>						
